@@ -1,5 +1,7 @@
 # Practicals for IT@JCU CP1404/CP1804/CP5632
 
+The author for this practicals-master is Sriram Kannan (14170770).
+
 This repository contains Python code and instructions for practicals for the subjects CP1404, CP1804 and CP5632 at James Cook University.
 
 Many files contain `# TODO` comments, which are part of the instructions for what students need to do.  
