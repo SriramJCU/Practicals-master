@@ -2,7 +2,7 @@
 CP1404/CP5632 - Practical
 Broken program to determine score status
 """
-
+import random
 
 def main():
     score = float(input("Enter score: "))
@@ -29,4 +29,12 @@ def score_result(score):
         result = "Excellent"
     return result
 
+def random_score():
+
+    score = random.randint(0,100)
+    print("Random Score: ", score)
+    print(score_result(score))
+
+
 main()
+random_score()
