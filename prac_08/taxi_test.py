@@ -2,7 +2,7 @@ from taxi import Taxi
 
 # 1
 
-new_taxi = Taxi("Prius 1", 100, 1.23)
+new_taxi = Taxi("Prius 1", 100)
 
 # 2
 
