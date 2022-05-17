@@ -15,12 +15,7 @@ class UnreliableCar(Car):
     def drive(self, distance):
         random_float = random.uniform(1, 100)
         if self.reliability > random_float:
-            if distance > self.fuel:
-                distance = self.fuel
-                self.fuel = 0
-            else:
-                self.fuel -= distance
-            self.odometer += distance
+            super().drive(distance)
         return distance
 
 
